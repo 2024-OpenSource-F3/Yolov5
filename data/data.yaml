@@ -1,0 +1,8 @@
+train: C:\Users\jtrg0\Desktop\VSCodeWorkPlace\yolov5-master\train\
+val: C:\Users\jtrg0\Desktop\VSCodeWorkPlace\yolov5-master\vaild\
+nc: 3
+names: [
+  'Pork_1',
+  'Pork_1+',
+  'Pork_2',
+]
