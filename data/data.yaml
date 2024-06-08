@@ -1,8 +1,13 @@
 train: C:\Users\jtrg0\Desktop\VSCodeWorkPlace\yolov5-master\train\
 val: C:\Users\jtrg0\Desktop\VSCodeWorkPlace\yolov5-master\vaild\
-nc: 3
+nc: 8
 names: [
   'Pork_1',
   'Pork_1+',
   'Pork_2',
+  'Beef_1',
+  'Beef_1+',
+  'Beef_1++',
+  'Beef_2',
+  'Beef_3',
 ]
