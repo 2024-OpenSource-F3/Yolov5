@@ -18,6 +18,7 @@ async def predict(file: UploadFile = File(...)):
     image = await file.read()
     img = transform_image(image)
     results = model(img)
+    print(results)
     return JSONResponse(results.pandas().xyxy[0].to_dict(orient="records"))
 
 if __name__ == "__main__":
